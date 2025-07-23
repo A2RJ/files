@@ -4,13 +4,48 @@ namespace App\Http\Controllers;
 
 use Dompdf\Dompdf;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Carbon;
 use PhpOffice\PhpWord\IOFactory;
 use PhpOffice\PhpWord\TemplateProcessor;
+use PDF;
 
 class FileController extends Controller
 {
+    public function test()
+    {
+        $dompdf = new Dompdf();
+        $data = [
+            'bantuan' => 'APA DETAAAAAAA'
+        ];
+        $html = view('pdf.formulir_permohonan_bantuan_uang_duka_g', $data)->render();
+        $dompdf->loadHtml($html);
+        $dompdf->render();
+
+        // Preview PDF ke browser
+        return response($dompdf->output(), 200)
+            ->header('Content-Type', 'application/pdf')
+            ->header('Content-Disposition', 'inline; filename="preview.pdf"');
+
+        // Pastikan folder storage/app/public/pdf ada
+        $pdfFolder = storage_path('app/public/pdf');
+        if (!file_exists($pdfFolder)) {
+            mkdir($pdfFolder, 0777, true);
+        }
+
+        // Simpan PDF ke storage/app/public/pdf/document.pdf
+        $output = $dompdf->output();
+        $pdfPath = $pdfFolder . '/document.pdf';
+        file_put_contents($pdfPath, $output);
+
+        // Bisa return response download atau info path
+        return response()->json([
+            'message' => 'PDF berhasil disimpan',
+            'path' => 'storage/app/public/pdf/document.pdf'
+        ]);
+    }
+
     public function pdf(Request $request)
     {
         $formulir = $request->input('formulir', null);
@@ -19,54 +54,13 @@ class FileController extends Controller
         $penduduk = $request->input('penduduk', []);
         $to = $request->input('to', '-');
 
-        // Pastikan folder pdf ada
         $pdfFolder = storage_path('app/public/pdf');
         if (!file_exists($pdfFolder)) {
             mkdir($pdfFolder, 0777, true);
         }
 
-        // Deteksi isBantuanDuka sesuai dengan FormPermohonanSosial.jsx
-        $isBantuanDuka = isset($dataRule['program_id']['title']) && strtoupper($dataRule['program_id']['title']) === 'BANTUAN UANG DUKA';
-
-        $template = $this->generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka, $penduduk, $to);
-
-        // Simpan docx ke folder pdf
-        $docxFile = $pdfFolder . '/hasil.docx';
-        $template->saveAs($docxFile);
-
-        $pdfFile = $this->convertDocxToPdf($docxFile, $pdfFolder);
-
-        // Pastikan $pdfFile adalah path absolut, dan dapatkan nama file saja untuk URL
-        if (file_exists($pdfFile)) {
-            // Ambil hanya nama file PDF (tanpa path)
-            $pdfFileName = basename($pdfFile);
-
-            // File sudah di storage/app/public/pdf, tidak perlu copy lagi
-            // Buat signed URL dengan nama file saja
-            $url = URL::temporarySignedRoute(
-                'download.pdf', now()->addMinutes(5), ['filename' => $pdfFileName]
-            );
-
-            return response()->json([
-                'url' => $url,
-                'filename' => $pdfFileName
-            ]);
-        } else {
-            return response()->json(['error' => 'PDF file not found'], 404);
-        }
-    }
-
-    /**
-     * Generate TemplateProcessor and set values based on formulir type
-     * Ditambah parameter isBantuanDuka dan penduduk agar sesuai dengan FormPermohonanSosial.jsx
-     * Ditambah parameter to untuk tujuan surat
-     */
-    private function generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka = false, $penduduk = null, $to = '-')
-    {
-        // Pilih template sesuai dengan jenis formulir menggunakan match
-        // Jika formulir adalah 'formulir_permohonan_bantuan_uang_duka', tentukan $to (cq) sesuai switch di FormPermohonanSosial.jsx
+        $programTitle = isset($dataRule['program_id']['title']) ? strtoupper($dataRule['program_id']['title']) : '';
         if ($formulir === 'formulir_permohonan_bantuan_uang_duka') {
-            $programTitle = isset($dataRule['program_id']['title']) ? strtoupper($dataRule['program_id']['title']) : '';
             switch ($programTitle) {
                 case 'BANTUAN UANG DUKA':
                 case 'BANTUAN SOSIAL ANAK YATIM/PIATU':
@@ -90,17 +84,19 @@ class FileController extends Controller
             }
         }
 
-        $templatePath = match ($formulir) {
+        $viewName = match ($formulir) {
             'formulir_permohonan_bantuan_biaya_awal_masuk' => 'templates/formulir_permohonan_bantuan_biaya_awal_masuk.docx',
             'formulir_permohonan_bantuan_kesehatan' => 'templates/formulir_permohonan_bantuan_kesehatan.docx',
-            'formulir_permohonan_bantuan_uang_duka' => 'templates/formulir_permohonan_bantuan_uang_duka.docx',
+            'formulir_permohonan_bantuan_uang_duka' => 'pdf.formulir_permohonan_bantuan_uang_duka_g',
             'formulir_permohonan_bantuan_perumahan' => 'templates/formulir_permohonan_bantuan_perumahan.docx',
             'formulir_permohonan_bantuan_tani_ternak' => 'templates/formulir_permohonan_bantuan_tani_ternak.docx',
             'formulir_permohonan_bantuan_perikanan' => 'templates/formulir_permohonan_bantuan_perikanan.docx',
             'formulir_permohonan_bantuan_umkm' => 'templates/formulir_permohonan_bantuan_umkm.docx',
             default => 'Template.docx',
         };
-        $template = new TemplateProcessor(public_path($templatePath));
+
+        // Deteksi isBantuanDuka sesuai dengan FormPermohonanSosial.jsx
+        $isBantuanDuka = isset($dataRule['program_id']['title']) && strtoupper($dataRule['program_id']['title']) === 'BANTUAN UANG DUKA';
 
         // Default values
         $values = [
@@ -140,48 +136,38 @@ class FileController extends Controller
             $values['penduduk_no_kk'] = data_get($penduduk, 'data_kk.no_kk', '-');
         }
 
-        // Set all values to template
-        foreach ($values as $key => $val) {
-            $template->setValue($key, $val);
-        }
-
-        return $template;
-    }
-
-    /**
-     * Convert DOCX to PDF and return PDF file path
-     */
-    private function convertDocxToPdf($docxFile, $pdfFolder)
-    {
-        $phpWord = IOFactory::load($docxFile);
-
-        // Simpan ke HTML dengan nama random di folder pdf
-        $htmlWriter = IOFactory::createWriter($phpWord, 'HTML');
-        $randomName = 'temp_' . uniqid() . '.html';
-        $htmlFile = $pdfFolder . '/' . $randomName;
-        $htmlWriter->save($htmlFile);
-
-        // Konversi HTML ke PDF
         $dompdf = new Dompdf();
-        $dompdf->loadHtml(file_get_contents($htmlFile));
+        $html = view($viewName, $values)->render();
+        $dompdf->loadHtml($html);
         $dompdf->setPaper('A4');
         $dompdf->render();
 
+        // Simpan PDF ke storage/app/public/pdf/document.pdf
+        $pdfFolder = storage_path('app/public/pdf');
+        if (!file_exists($pdfFolder)) {
+            mkdir($pdfFolder, 0777, true);
+        }
         $output = $dompdf->output();
-        $randomPdfName = 'surat_' . uniqid() . '.pdf';
-        $pdfFile = $pdfFolder . '/' . $randomPdfName;
-        file_put_contents($pdfFile, $output);
+        $pdfPath = $pdfFolder . '/document.pdf';
+        file_put_contents($pdfPath, $output);
 
-        // Hapus file HTML setelah PDF jadi
-        if (file_exists($htmlFile)) {
-            unlink($htmlFile);
-        }
-        // Hapus file hasil.docx setelah PDF jadi
-        if (file_exists($docxFile)) {
-            unlink($docxFile);
-        }
+        if (file_exists($pdfPath)) {
+            // Ambil hanya nama file PDF (tanpa path)
+            $pdfFileName = basename($pdfPath);
 
-        return $pdfFile;
+            // File sudah di storage/app/public/pdf, tidak perlu copy lagi
+            // Buat signed URL dengan nama file saja
+            $url = URL::temporarySignedRoute(
+                'download.pdf', now()->addMinutes(5), ['filename' => $pdfFileName]
+            );
+
+            return response()->json([
+                'url' => $url,
+                'filename' => $pdfFileName
+            ]);
+        } else {
+            return response()->json(['error' => 'PDF file not found'], 404);
+        }
     }
 
     public function generatePdf(Request $request)

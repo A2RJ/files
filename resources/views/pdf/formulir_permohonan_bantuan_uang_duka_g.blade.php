@@ -303,11 +303,11 @@
 
 <body class="c10 doc-content">
     <p class="c11"><span class="c15">FORMULIR PERMOHONAN</span></p>
-    <p class="c11"><span class="c15">${bantuan}</span></p>
+    <p class="c11"><span class="c15">{{ $bantuan }}</span></p>
     <p class="c12 c9"><span class="c1"></span></p>
     <p class="c5"><span class="c1">Kepada</span></p>
     <p class="c5"><span class="c1">Yth. Bupati Sumbawa Barat</span></p>
-    <p class="c5"><span class="c1">Cq. ${cq}</span></p>
+    <p class="c5"><span class="c1">Cq. {{ $cq }}</span></p>
     <p class="c5"><span class="c1">Kabupaten Sumbawa Barat</span></p>
     <p class="c5"><span class="c1">di- Taliwang</span></p>
     <p class="c5 c9"><span class="c1"></span></p>
@@ -318,7 +318,7 @@
                 <p class="c2"><span class="c1">Nama</span></p>
             </td>
             <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${pemohon}</span></p>
+                <p class="c2"><span class="c1">: {{ $pemohon }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -326,7 +326,7 @@
                 <p class="c2"><span class="c1">Alamat</span></p>
             </td>
             <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${alamat_pemohon}</span></p>
+                <p class="c2"><span class="c1">: {{ $alamat_pemohon }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -334,7 +334,7 @@
                 <p class="c2"><span class="c1">Pekerjaan</span></p>
             </td>
             <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${pekerjaan_pemohon}</span></p>
+                <p class="c2"><span class="c1">: {{ $pekerjaan_pemohon }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -342,7 +342,7 @@
                 <p class="c2"><span class="c1">No. Telp/HP</span></p>
             </td>
             <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${contact_pemohon}</span></p>
+                <p class="c2"><span class="c1">: {{ $contact_pemohon }}</span></p>
             </td>
         </tr>
     </table>
@@ -354,7 +354,7 @@
                 <p class="c2"><span class="c1">Nama</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${penduduk_nama}</span></p>
+                <p class="c2"><span class="c1">: {{ $penduduk_nama }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -362,7 +362,7 @@
                 <p class="c2"><span class="c1">Tempat/Tgl. Lahir</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c5"><span class="c1">:${penduduk_tempat_lahir}, ${penduduk_tanggal_lahir}</span></p>
+                <p class="c5"><span class="c1">:{{ $penduduk_tempat_lahir }}, {{ $penduduk_tanggal_lahir }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -370,7 +370,7 @@
                 <p class="c2"><span class="c1">Jenis Kelamin</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${penduduk_jenis_kelamin}</span></p>
+                <p class="c2"><span class="c1">: {{ $penduduk_jenis_kelamin }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -378,7 +378,7 @@
                 <p class="c2"><span class="c1">Alamat</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${penduduk_alamat}</span></p>
+                <p class="c2"><span class="c1">: {{ $penduduk_alamat }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -386,7 +386,7 @@
                 <p class="c2"><span class="c1">NIK</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${penduduk_nik}</span></p>
+                <p class="c2"><span class="c1">: {{ $penduduk_nik }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -394,12 +394,12 @@
                 <p class="c2"><span class="c1">No. KK</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${penduduk_no_kk}</span></p>
+                <p class="c2"><span class="c1">: {{ $penduduk_no_kk }}</span></p>
             </td>
         </tr>
     </table>
     <p class="c12 c9"><span class="c1"></span></p>
-    <p class="c12"><span class="c1">Dengan ini mengajukan permohonan ${bantuan} bersumber dari Dana Pemerintah Kabupaten
+    <p class="c12"><span class="c1">Dengan ini mengajukan permohonan {{ $bantuan }} bersumber dari Dana Pemerintah Kabupaten
             Sumbawa Barat.</span></p>
     <p class="c5 c9"><span class="c1"></span></p>
     <p class="c5"><span class="c1">Berikut identitas sasaran (ahli waris) bantuan:</span></p>
@@ -409,7 +409,7 @@
                 <p class="c2"><span class="c1">Nama</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${nama}</span></p>
+                <p class="c2"><span class="c1">: {{ $nama }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -417,7 +417,7 @@
                 <p class="c2"><span class="c1">Tempat/Tgl. Lahir</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c5"><span class="c1">:${tempat_lahir}, ${tanggal_lahir}</span></p>
+                <p class="c5"><span class="c1">:{{ $tempat_lahir }}, {{ $tanggal_lahir }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -425,7 +425,7 @@
                 <p class="c2"><span class="c1">Jenis Kelamin</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${jenis_kelamin}</span></p>
+                <p class="c2"><span class="c1">: {{ $jenis_kelamin }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -433,7 +433,7 @@
                 <p class="c2"><span class="c1">Alamat</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${alamat}</span></p>
+                <p class="c2"><span class="c1">: {{ $alamat }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -441,7 +441,7 @@
                 <p class="c2"><span class="c1">NIK</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${nik}</span></p>
+                <p class="c2"><span class="c1">: {{ $nik }}</span></p>
             </td>
         </tr>
         <tr class="c3">
@@ -449,7 +449,7 @@
                 <p class="c2"><span class="c1">No. KK</span></p>
             </td>
             <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: ${no_kk}</span></p>
+                <p class="c2"><span class="c1">: {{ $no_kk }}</span></p>
             </td>
         </tr>
     </table>
@@ -460,7 +460,7 @@
     <p class="c5"><span class="c1">Pemohon,</span></p>
     <p class="c7 c9"><span class="c1"></span></p>
     <p class="c7 c9"><span class="c1"></span></p>
-    <p class="c7"><span class="c1">${tanda_tangan}</span></p>
+    <p class="c7"><span class="c1">{{ $tanda_tangan }}</span></p>
 </body>
 
 </html>
