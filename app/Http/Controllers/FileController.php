@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Dompdf\Dompdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Carbon;
 use PhpOffice\PhpWord\IOFactory;
 use PhpOffice\PhpWord\TemplateProcessor;
 
@@ -12,21 +13,22 @@ class FileController extends Controller
 {
     public function pdf(Request $request)
     {
+        $formulir = $request->input('formulir', null);
+        $data = $request->input('data', []);
+        $dataRule = $request->input('dataRule', []);
+        $penduduk = $request->input('penduduk', []);
+        $to = $request->input('to', '-');
+
         // Pastikan folder pdf ada
         $pdfFolder = storage_path('app/public/pdf');
         if (!file_exists($pdfFolder)) {
             mkdir($pdfFolder, 0777, true);
         }
 
-        $formulir = $request->input('formulir', null);
-        $data = $request->input('data', []);
-        $dataRule = $request->input('dataRule', []);
-        $penduduk = $request->input('penduduk', []);
-
         // Deteksi isBantuanDuka sesuai dengan FormPermohonanSosial.jsx
         $isBantuanDuka = isset($dataRule['program_id']['title']) && strtoupper($dataRule['program_id']['title']) === 'BANTUAN UANG DUKA';
 
-        $template = $this->generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka, $penduduk);
+        $template = $this->generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka, $penduduk, $to);
 
         // Simpan docx ke folder pdf
         $docxFile = $pdfFolder . '/hasil.docx';
@@ -34,10 +36,20 @@ class FileController extends Controller
 
         $pdfFile = $this->convertDocxToPdf($docxFile, $pdfFolder);
 
-        // Stream PDF file ke response
+        // Pastikan $pdfFile adalah path absolut, dan dapatkan nama file saja untuk URL
         if (file_exists($pdfFile)) {
-            return response()->file($pdfFile, [
-                'Content-Type' => 'application/pdf'
+            // Ambil hanya nama file PDF (tanpa path)
+            $pdfFileName = basename($pdfFile);
+
+            // File sudah di storage/app/public/pdf, tidak perlu copy lagi
+            // Buat signed URL dengan nama file saja
+            $url = URL::temporarySignedRoute(
+                'download.pdf', now()->addMinutes(5), ['filename' => $pdfFileName]
+            );
+
+            return response()->json([
+                'url' => $url,
+                'filename' => $pdfFileName
             ]);
         } else {
             return response()->json(['error' => 'PDF file not found'], 404);
@@ -47,10 +59,37 @@ class FileController extends Controller
     /**
      * Generate TemplateProcessor and set values based on formulir type
      * Ditambah parameter isBantuanDuka dan penduduk agar sesuai dengan FormPermohonanSosial.jsx
+     * Ditambah parameter to untuk tujuan surat
      */
-    private function generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka = false, $penduduk = null)
+    private function generateTemplateProcessor($formulir, $data, $dataRule, $isBantuanDuka = false, $penduduk = null, $to = '-')
     {
         // Pilih template sesuai dengan jenis formulir menggunakan match
+        // Jika formulir adalah 'formulir_permohonan_bantuan_uang_duka', tentukan $to (cq) sesuai switch di FormPermohonanSosial.jsx
+        if ($formulir === 'formulir_permohonan_bantuan_uang_duka') {
+            $programTitle = isset($dataRule['program_id']['title']) ? strtoupper($dataRule['program_id']['title']) : '';
+            switch ($programTitle) {
+                case 'BANTUAN UANG DUKA':
+                case 'BANTUAN SOSIAL ANAK YATIM/PIATU':
+                case 'BANTUAN SOSIAL LANSIA':
+                case 'BANTUAN SOSIAL PENYANDANG DISABILITAS':
+                case 'BANTUAN SOSIAL KEMISKINAN EKSTREM':
+                    $to = 'Kepala Dinas Sosial';
+                    break;
+                case 'BANTUAN SOSIAL GURU NGAJI':
+                case 'BANTUAN SOSIAL MARBOT MASJID KELURAHAN/KECAMATAN':
+                    $to = 'Sekretaris Daerah';
+                    break;
+                case 'BANTUAN SOSIAL PAJAK BUMI DAN BANGUNAN':
+                    $to = 'Kepala Badan Perencanaan dan Pembangunan Daerah';
+                    break;
+                case 'BANTUAN SOSIAL FM-332':
+                    $to = 'Kepala Badan Amil Zakat Nasional';
+                    break;
+                default:
+                    break;
+            }
+        }
+
         $templatePath = match ($formulir) {
             'formulir_permohonan_bantuan_biaya_awal_masuk' => 'templates/formulir_permohonan_bantuan_biaya_awal_masuk.docx',
             'formulir_permohonan_bantuan_kesehatan' => 'templates/formulir_permohonan_bantuan_kesehatan.docx',
@@ -61,33 +100,34 @@ class FileController extends Controller
             'formulir_permohonan_bantuan_umkm' => 'templates/formulir_permohonan_bantuan_umkm.docx',
             default => 'Template.docx',
         };
-        $template = new TemplateProcessor($templatePath);
+        $template = new TemplateProcessor(public_path($templatePath));
 
         // Default values
         $values = [
-            'title' => data_get($dataRule, 'program_id.title', '-'),
+            'bantuan' => $programTitle,
             'pemohon' => data_get($dataRule, 'pemohon', '-'),
             'alamat_pemohon' => data_get($dataRule, 'alamat_pemohon', '-'),
             'pekerjaan_pemohon' => data_get($dataRule, 'pekerjaan_pemohon', '-'),
             'contact_pemohon' => data_get($dataRule, 'contact_pemohon', '-'),
             'nama' => data_get($data, 'nama', '-'),
             'tempat_lahir' => data_get($data, 'tempat_lahir', '-'),
-            'tanggal_lahir' => data_get($data, 'tanggal_lahir', '-'),
+            'tanggal_lahir' => ($tgl = data_get($data, 'tanggal_lahir')) && $tgl !== '-' ? Carbon::parse($tgl)->translatedFormat('d F Y') : '-',
             'jenis_kelamin' => data_get($data, 'jenis_kelamin.nama', '-'),
             'alamat' => data_get($data, 'alamat', '-'),
             'nik' => data_get($data, 'nik', '-'),
             'no_kk' => data_get($data, 'data_kk.no_kk', '-'),
             'tanda_tangan' => data_get($dataRule, 'pemohon', '-'),
-            'tanggal' => date('d F Y'),
+            'cq' => $to,
             // Field khusus isBantuanDuka
-            'is_bantuan_duka' => $isBantuanDuka ? '1' : '0',
+            'is_bantuan_duka' => $isBantuanDuka,
         ];
 
         // Jika isBantuanDuka, tambahkan data penduduk (identitas sasaran meninggal dunia)
         if ($isBantuanDuka && $penduduk) {
             $values['penduduk_nama'] = data_get($penduduk, 'nama', '-');
             $values['penduduk_tempat_lahir'] = data_get($penduduk, 'tempat_lahir', '-');
-            $values['penduduk_tanggal_lahir'] = data_get($penduduk, 'tanggal_lahir', '-');
+            $tglPenduduk = data_get($penduduk, 'tanggal_lahir', '-');
+            $values['penduduk_tanggal_lahir'] = ($tglPenduduk && $tglPenduduk !== '-') ? Carbon::parse($tglPenduduk)->translatedFormat('d F Y') : '-';
             $values['penduduk_jenis_kelamin'] = data_get($penduduk, 'jenis_kelamin.nama', '-');
             // Alamat penduduk: gabungan dusun, tempat_lahir, kecamatan.nama (lihat FormPermohonanSosial.jsx)
             $alamat_penduduk = collect([
@@ -98,12 +138,6 @@ class FileController extends Controller
             $values['penduduk_alamat'] = $alamat_penduduk !== '' ? $alamat_penduduk : '-';
             $values['penduduk_nik'] = data_get($penduduk, 'nik', '-');
             $values['penduduk_no_kk'] = data_get($penduduk, 'data_kk.no_kk', '-');
-        }
-
-        // Tambahan field khusus untuk formulir tertentu
-        if ($formulir === 'formulir_permohonan_bantuan_uang_duka') {
-            $values['nama_alm'] = data_get($dataRule, 'nama_alm', '-');
-            $values['tanggal_meninggal'] = data_get($dataRule, 'tanggal_meninggal', '-');
         }
 
         // Set all values to template
