@@ -8,7 +8,6 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/pdf', [FileController::class, 'pdf']);
-
-Route::post('/generate-pdf', [FileController::class, 'generateAndDownload']);
-Route::delete('/delete-pdf/{filename}', [FileController::class, 'delete']);
+Route::get('/generate-pdf', [FileController::class, 'generatePdf']);
+// Contoh akses: POST http://localhost:8000/api/generate-pdf
+// Body (JSON): { "nama": "Nama Anda", ... }
