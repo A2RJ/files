@@ -399,7 +399,7 @@
         </tr>
     </table>
     <p class="c12 c9"><span class="c1"></span></p>
-    <p class="c12"><span class="c1">Dengan ini mengajukan permohonan {{ $bantuan }} bersumber dari Dana Pemerintah Kabupaten
+    <p class="c12"><span class="c1">Dengan ini mengajukan permohonan {{ $bantuan_cew }} bersumber dari Dana Pemerintah Kabupaten
             Sumbawa Barat.</span></p>
     <p class="c5 c9"><span class="c1"></span></p>
     <p class="c5"><span class="c1">Berikut identitas sasaran (ahli waris) bantuan:</span></p>

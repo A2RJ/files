@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
 use PhpOffice\PhpWord\IOFactory;
 use PhpOffice\PhpWord\TemplateProcessor;
 use PDF;
@@ -83,11 +84,15 @@ class FileController extends Controller
                     break;
             }
         }
+        if ($formulir === 'formulir_permohonan_bantuan_umkm' && isset($dataRule['program_id']['title']) && $dataRule['program_id']['title'] === 'Bantuan Modal Usaha (Non-Syariah)') {
+            $dataRule['program_id']['title'] = 'Bantuan Modal Usaha';
+            $programTitle = 'BANTUAN MODAL USAHA';
+        }
 
         $viewName = match ($formulir) {
             'formulir_permohonan_bantuan_biaya_awal_masuk' => 'templates/formulir_permohonan_bantuan_biaya_awal_masuk.docx',
             'formulir_permohonan_bantuan_kesehatan' => 'templates/formulir_permohonan_bantuan_kesehatan.docx',
-            'formulir_permohonan_bantuan_uang_duka' => 'pdf.formulir_permohonan_bantuan_uang_duka_g',
+            'formulir_permohonan_bantuan_uang_duka' => 'pdf.formulir_permohonan_bantuan_uang_duka',
             'formulir_permohonan_bantuan_perumahan' => 'templates/formulir_permohonan_bantuan_perumahan.docx',
             'formulir_permohonan_bantuan_tani_ternak' => 'templates/formulir_permohonan_bantuan_tani_ternak.docx',
             'formulir_permohonan_bantuan_perikanan' => 'templates/formulir_permohonan_bantuan_perikanan.docx',
@@ -101,6 +106,7 @@ class FileController extends Controller
         // Default values
         $values = [
             'bantuan' => $programTitle,
+            'cq' => $to,
             'pemohon' => data_get($dataRule, 'pemohon', '-'),
             'alamat_pemohon' => data_get($dataRule, 'alamat_pemohon', '-'),
             'pekerjaan_pemohon' => data_get($dataRule, 'pekerjaan_pemohon', '-'),
@@ -113,13 +119,21 @@ class FileController extends Controller
             'nik' => data_get($data, 'nik', '-'),
             'no_kk' => data_get($data, 'data_kk.no_kk', '-'),
             'tanda_tangan' => data_get($dataRule, 'pemohon', '-'),
-            'cq' => $to,
-            // Field khusus isBantuanDuka
-            'is_bantuan_duka' => $isBantuanDuka,
         ];
+
+        if ($formulir == 'formulir_permohonan_bantuan_biaya_awal_masuk') {
+            $values['program_id_title'] = data_get($dataRule, 'program_id.title', '-');
+            $values['wali'] = data_get($dataRule, 'wali', '-');
+            $values['contact_wali'] = data_get($dataRule, 'contact_wali', '-');
+            $values['alamat_wali'] = data_get($dataRule, 'alamat_wali', '-');
+            $values['pekerjaan_wali'] = data_get($dataRule, 'pekerjaan_wali', '-');
+            $values['unit_pendidikan_asal_nama'] = data_get($dataRule, 'unit_pendidikan_asal_id.nama', '-');
+            $values['unit_pendidikan_asal_alamat'] = data_get($dataRule, 'unit_pendidikan_asal_id.alamat', '-');
+        }
 
         // Jika isBantuanDuka, tambahkan data penduduk (identitas sasaran meninggal dunia)
         if ($isBantuanDuka && $penduduk) {
+            $values['bantuan_cew'] = Str::title($programTitle);
             $values['penduduk_nama'] = data_get($penduduk, 'nama', '-');
             $values['penduduk_tempat_lahir'] = data_get($penduduk, 'tempat_lahir', '-');
             $tglPenduduk = data_get($penduduk, 'tanggal_lahir', '-');
