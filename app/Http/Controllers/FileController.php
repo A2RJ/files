@@ -90,10 +90,10 @@ class FileController extends Controller
         }
 
         $viewName = match ($formulir) {
-            'formulir_permohonan_bantuan_biaya_awal_masuk' => 'templates/formulir_permohonan_bantuan_biaya_awal_masuk.docx',
-            'formulir_permohonan_bantuan_kesehatan' => 'templates/formulir_permohonan_bantuan_kesehatan.docx',
-            'formulir_permohonan_bantuan_uang_duka' => 'pdf.formulir_permohonan_bantuan_uang_duka',
-            'formulir_permohonan_bantuan_perumahan' => 'templates/formulir_permohonan_bantuan_perumahan.docx',
+            'formulir_permohonan_bantuan_biaya_awal_masuk' => 'pdf/formulir_permohonan_bantuan_biaya_awal_masuk',
+            'formulir_permohonan_bantuan_kesehatan' => 'pdf.formulir_permohonan_bantuan_sosial',
+            'formulir_permohonan_bantuan_uang_duka' => 'pdf.formulir_permohonan_bantuan_sosial',
+            'formulir_permohonan_bantuan_perumahan' => 'pdf.formulir_permohonan_bantuan_sosial',
             'formulir_permohonan_bantuan_tani_ternak' => 'templates/formulir_permohonan_bantuan_tani_ternak.docx',
             'formulir_permohonan_bantuan_perikanan' => 'templates/formulir_permohonan_bantuan_perikanan.docx',
             'formulir_permohonan_bantuan_umkm' => 'templates/formulir_permohonan_bantuan_umkm.docx',
@@ -106,6 +106,11 @@ class FileController extends Controller
         // Default values
         $values = [
             'bantuan' => $programTitle,
+            'bantuan_cew' => preg_replace_callback('/^([^(]+)(\([^)]+\))?$/', function ($matches) {
+                $outside = isset($matches[1]) ? Str::title(trim($matches[1])) : '';
+                $inside = isset($matches[2]) ? $matches[2] : '';
+                return trim($outside . ' ' . $inside);
+            }, $programTitle),
             'cq' => $to,
             'pemohon' => data_get($dataRule, 'pemohon', '-'),
             'alamat_pemohon' => data_get($dataRule, 'alamat_pemohon', '-'),
@@ -129,11 +134,12 @@ class FileController extends Controller
             $values['pekerjaan_wali'] = data_get($dataRule, 'pekerjaan_wali', '-');
             $values['unit_pendidikan_asal_nama'] = data_get($dataRule, 'unit_pendidikan_asal_id.nama', '-');
             $values['unit_pendidikan_asal_alamat'] = data_get($dataRule, 'unit_pendidikan_asal_id.alamat', '-');
+            $values['tanda_tangan'] = data_get($dataRule, 'wali', '-');
         }
 
         // Jika isBantuanDuka, tambahkan data penduduk (identitas sasaran meninggal dunia)
         if ($isBantuanDuka && $penduduk) {
-            $values['bantuan_cew'] = Str::title($programTitle);
+            $viewName = 'pdf.formulir_permohonan_bantuan_uang_duka';
             $values['penduduk_nama'] = data_get($penduduk, 'nama', '-');
             $values['penduduk_tempat_lahir'] = data_get($penduduk, 'tempat_lahir', '-');
             $tglPenduduk = data_get($penduduk, 'tanggal_lahir', '-');

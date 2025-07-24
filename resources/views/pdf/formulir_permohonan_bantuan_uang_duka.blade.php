@@ -1,466 +1,966 @@
-<html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word"
+    xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <style type="text/css">
-        @import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98);
-
-        ol {
-            margin: 0;
-            padding: 0
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Word.Document>
+    <meta name=Generator content="Microsoft Word 14">
+    <meta name=Originator content="Microsoft Word 14">
+    <link rel=File-List href="formulir_permohonan_bantuan_uang_duka_g.files/filelist.xml">
+    <title></title>
+    <!--[if gte mso 9]><xml><o:DocumentProperties><o:Author>a2rj</o:Author><o:LastAuthor>Ardiansyah Putra</o:LastAuthor><o:Revision>1</o:Revision><o:Pages>1</o:Pages><o:Lines>1</o:Lines><o:Paragraphs>1</o:Paragraphs></o:DocumentProperties><o:CustomDocumentProperties><o:KSOProductBuildVer dt:dt="string" >1033-12.2.0.21931</o:KSOProductBuildVer><o:ICV dt:dt="string" >E0103EB6A68F4D619947AD96EB508BC4_13</o:ICV></o:CustomDocumentProperties></xml><![endif]--><!--[if gte mso 9]><xml><o:OfficeDocumentSettings></o:OfficeDocumentSettings></xml><![endif]--><!--[if gte mso 9]><xml><w:WordDocument><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel><w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery><w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery><w:DocumentKind>DocumentNotSpecified</w:DocumentKind><w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing><w:PunctuationKerning></w:PunctuationKerning><w:View>Web</w:View><w:Compatibility><w:DontGrowAutofit/></w:Compatibility><w:Zoom>0</w:Zoom></w:WordDocument></xml><![endif]--><!--[if gte mso 9]><xml><w:LatentStyles DefLockedState="false"  DefUnhideWhenUsed="true"  DefSemiHidden="true"  DefQFormat="false"  DefPriority="99"  LatentStyleCount="260" >
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  QFormat="true"  Name="heading 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  QFormat="true"  Name="heading 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  QFormat="true"  Name="heading 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="header" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footer" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  QFormat="true"  Name="caption" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of figures" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope address" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope return" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="line number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="page number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of authorities" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="macro" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toa heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Title" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Closing" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Signature" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  UnhideWhenUsed="false"  Name="Default Paragraph Font" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Message Header" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Subtitle" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Salutation" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Date" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Note Heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Block Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Hyperlink" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="FollowedHyperlink" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Strong" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Emphasis" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Document Map" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Plain Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="E-mail Signature" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal (Web)" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Acronym" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Address" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Cite" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Code" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Definition" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Keyboard" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Preformatted" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Sample" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Typewriter" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Variable" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  UnhideWhenUsed="false"  Name="Normal Table" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation subject" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="No List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="1 / a / i" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="1 / 1.1 / 1.1.1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Article / Section" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Contemporary" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Elegant" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Professional" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Subtle 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Subtle 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Balloon Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Theme" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Placeholder Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="No Spacing" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="List Paragraph" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Quote" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Intense Quote" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid Accent 6" ></w:LsdException>
+</w:LatentStyles></xml><![endif]-->
+    <style>
+        @font-face {
+            font-family: "Times New Roman";
         }
 
-        table td,
-        table th {
-            padding: 0
+        @font-face {
+            font-family: "宋体";
         }
 
-        .c14 {
-            border-right-style: solid;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 144pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c8 {
-            border-right-style: solid;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 342pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c6 {
-            border-right-style: solid;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 147.8pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c4 {
-            border-right-style: solid;
-            border-bottom-color: #ffffff;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #ffffff;
-            vertical-align: top;
-            border-right-color: #ffffff;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 338.2pt;
-            border-top-color: #ffffff;
-            border-bottom-style: solid
-        }
-
-        .c2 {
-            margin-left: 142.9pt;
-            padding-top: 0pt;
-            text-indent: -142.9pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c1 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 12pt;
+        @font-face {
             font-family: "Calibri";
-            font-style: normal
         }
 
-        .c15 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 14pt;
-            font-family: "Calibri";
-            font-style: normal
+        @font-face {
+            font-family: "Wingdings";
         }
 
-        .c7 {
-            padding-top: 6pt;
-            padding-bottom: 12pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c11 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: center
-        }
-
-        .c12 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
-        }
-
-        .c5 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c0 {
-            border-spacing: 0;
-            border-collapse: collapse;
-            margin-right: auto
-        }
-
-        .c10 {
-            background-color: #ffffff;
-            max-width: 487.3pt;
-            padding: 72pt 54pt 72pt 54pt
-        }
-
-        .c13 {
-            height: 10.2pt
-        }
-
-        .c9 {
-            height: 11pt
-        }
-
-        .c3 {
-            height: 0pt
-        }
-
-        .title {
-            padding-top: 24pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 36pt;
-            padding-bottom: 6pt;
-            font-family: "Calibri";
-            line-height: 1.0;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
-        }
-
-        .subtitle {
-            padding-top: 18pt;
-            color: #666666;
-            font-size: 24pt;
-            padding-bottom: 4pt;
+        @font-face {
             font-family: "Georgia";
-            line-height: 1.0;
-            page-break-after: avoid;
-            font-style: italic;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
         }
 
-        li {
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Calibri"
-        }
-
-        p {
-            margin: 0;
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Calibri"
+        p.MsoNormal {
+            mso-style-name: Normal;
+            mso-style-parent: "";
+            margin-top: 6.0000pt;
+            margin-bottom: 12.0000pt;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            font-size: 11.0000pt;
         }
 
         h1 {
-            padding-top: 24pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 24pt;
-            padding-bottom: 6pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 1";
+            mso-style-next: Normal;
+            margin-top: 24.0000pt;
+            margin-bottom: 6.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 24.0000pt;
         }
 
         h2 {
-            padding-top: 18pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 18pt;
-            padding-bottom: 4pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 2";
+            mso-style-next: Normal;
+            margin-top: 18.0000pt;
+            margin-bottom: 4.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 18.0000pt;
         }
 
         h3 {
-            padding-top: 14pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 14pt;
-            padding-bottom: 4pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 3";
+            mso-style-next: Normal;
+            margin-top: 14.0000pt;
+            margin-bottom: 4.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 14.0000pt;
         }
 
         h4 {
-            padding-top: 12pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 12pt;
-            padding-bottom: 2pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 4";
+            mso-style-next: Normal;
+            margin-top: 12.0000pt;
+            margin-bottom: 2.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 12.0000pt;
         }
 
         h5 {
-            padding-top: 11pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 11pt;
-            padding-bottom: 2pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 5";
+            mso-style-next: Normal;
+            margin-top: 11.0000pt;
+            margin-bottom: 2.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 11.0000pt;
         }
 
         h6 {
-            padding-top: 10pt;
-            color: #000000;
-            font-weight: 700;
-            font-size: 10pt;
-            padding-bottom: 2pt;
-            font-family: "Calibri";
-            line-height: 1.0;
+            mso-style-name: "Heading 6";
+            mso-style-next: Normal;
+            margin-top: 10.0000pt;
+            margin-bottom: 2.0000pt;
             page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: justify
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 10.0000pt;
+        }
+
+        span.10 {
+            font-family: Calibri;
+        }
+
+        p.MsoSubtitle {
+            mso-style-name: Subtitle;
+            mso-style-next: Normal;
+            margin-top: 18.0000pt;
+            margin-bottom: 4.0000pt;
+            page-break-after: avoid;
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Georgia;
+            color: rgb(102, 102, 102);
+            mso-ansi-font-style: italic;
+            font-size: 24.0000pt;
+        }
+
+        p.MsoTitle {
+            mso-style-name: Title;
+            mso-style-next: Normal;
+            margin-top: 24.0000pt;
+            margin-bottom: 6.0000pt;
+            page-break-after: avoid;
+            mso-pagination: lines-together;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-family: Calibri;
+            mso-ansi-font-weight: bold;
+            font-size: 36.0000pt;
+        }
+
+        span.msoIns {
+            mso-style-type: export-only;
+            mso-style-name: "";
+            text-decoration: underline;
+            text-underline: single;
+            color: blue;
+        }
+
+        span.msoDel {
+            mso-style-type: export-only;
+            mso-style-name: "";
+            text-decoration: line-through;
+            color: red;
+        }
+
+        table.MsoNormalTable {
+            mso-style-name: "Table Normal";
+            mso-style-parent: "";
+            mso-style-noshow: yes;
+            mso-tstyle-rowband-size: 0;
+            mso-tstyle-colband-size: 0;
+            mso-padding-alt: 0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-family: 'Times New Roman';
+            font-size: 10.0000pt;
+            mso-ansi-language: #0400;
+            mso-fareast-language: #0400;
+            mso-bidi-language: #0400;
+        }
+
+        table.20 {
+            mso-style-name: TableNormal;
+            mso-tstyle-rowband-size: 0;
+            mso-tstyle-colband-size: 0;
+            mso-padding-alt: 0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-family: 'Times New Roman';
+            font-size: 10.0000pt;
+            mso-ansi-language: #0400;
+            mso-fareast-language: #0400;
+            mso-bidi-language: #0400;
+        }
+
+        table.19 {
+            mso-style-name: "_Style 10";
+            mso-style-parent: TableNormal;
+            mso-tstyle-rowband-size: 0;
+            mso-tstyle-colband-size: 0;
+            mso-padding-alt: 5.0000pt 5.0000pt 5.0000pt 5.0000pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-family: 'Times New Roman';
+            font-size: 10.0000pt;
+            mso-ansi-language: #0400;
+            mso-fareast-language: #0400;
+            mso-bidi-language: #0400;
+        }
+
+        table.18 {
+            mso-style-name: "_Style 11";
+            mso-style-parent: TableNormal;
+            mso-tstyle-rowband-size: 0;
+            mso-tstyle-colband-size: 0;
+            mso-padding-alt: 5.0000pt 5.0000pt 5.0000pt 5.0000pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-family: 'Times New Roman';
+            font-size: 10.0000pt;
+            mso-ansi-language: #0400;
+            mso-fareast-language: #0400;
+            mso-bidi-language: #0400;
+        }
+
+        table.17 {
+            mso-style-name: "_Style 12";
+            mso-style-parent: TableNormal;
+            mso-tstyle-rowband-size: 0;
+            mso-tstyle-colband-size: 0;
+            mso-padding-alt: 5.0000pt 5.0000pt 5.0000pt 5.0000pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-family: 'Times New Roman';
+            font-size: 10.0000pt;
+            mso-ansi-language: #0400;
+            mso-fareast-language: #0400;
+            mso-bidi-language: #0400;
+        }
+
+        @page {
+            mso-page-border-surround-header: no;
+            mso-page-border-surround-footer: no;
+        }
+
+        @page Section0 {
+            margin-top: 72.0000pt;
+            margin-bottom: 72.0000pt;
+            margin-left: 54.0000pt;
+            margin-right: 54.0000pt;
+            size: 595.3000pt 841.9000pt;
+            mso-header-margin: 36.0000pt;
+            mso-footer-margin: 36.0000pt;
+        }
+
+        div.Section0 {
+            page: Section0;
         }
     </style>
 </head>
 
-<body class="c10 doc-content">
-    <p class="c11"><span class="c15">FORMULIR PERMOHONAN</span></p>
-    <p class="c11"><span class="c15">{{ $bantuan }}</span></p>
-    <p class="c12 c9"><span class="c1"></span></p>
-    <p class="c5"><span class="c1">Kepada</span></p>
-    <p class="c5"><span class="c1">Yth. Bupati Sumbawa Barat</span></p>
-    <p class="c5"><span class="c1">Cq. {{ $cq }}</span></p>
-    <p class="c5"><span class="c1">Kabupaten Sumbawa Barat</span></p>
-    <p class="c5"><span class="c1">di- Taliwang</span></p>
-    <p class="c5 c9"><span class="c1"></span></p>
-    <p class="c5"><span class="c1">Yang bertanda tangan di bawah ini:</span></p>
-    <table class="c0">
-        <tr class="c13">
-            <td class="c14" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Nama</span></p>
-            </td>
-            <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $pemohon }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c14" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Alamat</span></p>
-            </td>
-            <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $alamat_pemohon }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c14" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Pekerjaan</span></p>
-            </td>
-            <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $pekerjaan_pemohon }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c14" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">No. Telp/HP</span></p>
-            </td>
-            <td class="c8" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $contact_pemohon }}</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c5 c9"><span class="c1"></span></p>
-    <p class="c5"><span class="c1">Berikut identitas sasaran meninggal dunia:</span></p>
-    <table class="c0">
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Nama</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $penduduk_nama }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Tempat/Tgl. Lahir</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c5"><span class="c1">:{{ $penduduk_tempat_lahir }}, {{ $penduduk_tanggal_lahir }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Jenis Kelamin</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $penduduk_jenis_kelamin }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Alamat</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $penduduk_alamat }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">NIK</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $penduduk_nik }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">No. KK</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $penduduk_no_kk }}</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c12 c9"><span class="c1"></span></p>
-    <p class="c12"><span class="c1">Dengan ini mengajukan permohonan {{ $bantuan_cew }} bersumber dari Dana Pemerintah Kabupaten
-            Sumbawa Barat.</span></p>
-    <p class="c5 c9"><span class="c1"></span></p>
-    <p class="c5"><span class="c1">Berikut identitas sasaran (ahli waris) bantuan:</span></p>
-    <table class="c0">
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Nama</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $nama }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Tempat/Tgl. Lahir</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c5"><span class="c1">:{{ $tempat_lahir }}, {{ $tanggal_lahir }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Jenis Kelamin</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $jenis_kelamin }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">Alamat</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $alamat }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">NIK</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $nik }}</span></p>
-            </td>
-        </tr>
-        <tr class="c3">
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">No. KK</span></p>
-            </td>
-            <td class="c4" colspan="1" rowspan="1">
-                <p class="c2"><span class="c1">: {{ $no_kk }}</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c5 c9"><span class="c1"></span></p>
-    <p class="c12"><span class="c1">Demikian permohonan ini dibuat dengan harapan Bapak/Ibu dapat
-            mempertimbangkannya.</span></p>
-    <p class="c7 c9"><span class="c1"></span></p>
-    <p class="c5"><span class="c1">Pemohon,</span></p>
-    <p class="c7 c9"><span class="c1"></span></p>
-    <p class="c7 c9"><span class="c1"></span></p>
-    <p class="c7"><span class="c1">{{ $tanda_tangan }}</span></p>
+<body style="tab-interval:36pt;"><!--StartFragment-->
+    <div class="Section0">
+        <p class=MsoNormal align=center style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:center;"><span
+                dir="LTR" style="mso-spacerun:'yes';font-family:Calibri;font-size:14.0000pt;">FORMULIR
+                PERMOHONAN</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:14.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal align=center style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:center;"><span
+                dir="LTR" style="mso-spacerun:'yes';font-family:Calibri;font-size:14.0000pt;">{{ $bantuan }}</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:14.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Kepada</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Yth. Bupati Sumbawa
+                Barat</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Cq. {{ $cq }}</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Kabupaten Sumbawa Barat</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">di- Taliwang</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Yang bertanda tangan di bawah
+                ini:</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <table class=19 border=0 cellspacing=0 style="border-collapse:collapse;width:486.0000pt;
+mso-table-layout-alt:fixed;border:none;mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt ;">
+            <tr style="height:10.2000pt;">
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Nama</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $pemohon }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Alamat</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $alamat_pemohon }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Pekerjaan</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: {{ $pekerjaan_pemohon }}</span><span style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">No. Telp/HP</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-right:0.0000pt;margin-bottom:0.0000pt;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $contact_pemohon }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+        </table>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Berikut identitas sasaran meninggal
+                dunia:</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <table class=18 border=0 cellspacing=0 style="border-collapse:collapse;width:486.0000pt;
+mso-table-layout-alt:fixed;border:none;mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt ;">
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Nama</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_nama }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Tempat/Tgl. Lahir</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:0.0000pt;
+text-indent:0.0000pt;text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">:</span><span
+                            dir="LTR" style="font-family:Calibri;font-size:12.0000pt;"><span
+                                style="mso-spacerun:'yes';">&nbsp;</span>{{ $penduduk_tempat_lahir }}, </span><span
+                            dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_tanggal_lahir }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Jenis Kelamin</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_jenis_kelamin }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Alamat</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_alamat }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">NIK</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_nik }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=249 valign=top style="width:124.8500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">No. KK</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=722 valign=top style="width:361.1500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $penduduk_no_kk }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+        </table>
+        <p class=MsoNormal align=justify style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:justify;
+text-justify:inter-ideograph;"><span style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal align=justify style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:justify;
+text-justify:inter-ideograph;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Dengan ini mengajukan permohonan
+                {{ $bantuan }} bersumber dari Dana Pemerintah Kabupaten Sumbawa Barat.</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Berikut identitas sasaran (ahli
+                waris) bantuan:</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <table class=17 border=0 cellspacing=0 style="border-collapse:collapse;width:486.0000pt;
+mso-table-layout-alt:fixed;border:none;mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt ;">
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Nama</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $nama }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Tempat/Tgl. Lahir</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span
+                            dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">:</span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;"><span
+                                style="mso-spacerun:'yes';">&nbsp;</span>{{ $tempat_lahir }}, </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $tanggal_lahir }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Jenis Kelamin</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $jenis_kelamin }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">Alamat</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $alamat }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">NIK</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $nik }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width=250 valign=top style="width:125.3500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">No. KK</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+                <td width=721 valign=top style="width:360.6500pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;
+border-right:none;border-top:none;border-bottom:none;">
+                    <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;tab-stops:left blank 141.7500pt ;
+text-align:left;"><span dir="LTR" style="font-family:Calibri;font-size:12.0000pt;">: </span><span dir="LTR"
+                            style="font-family:Calibri;font-size:12.0000pt;">{{ $no_kk }}</span><span
+                            style="font-family:Calibri;font-size:12.0000pt;">
+                            <o:p></o:p>
+                        </span></p>
+                </td>
+            </tr>
+        </table>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal align=justify style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:justify;
+text-justify:inter-ideograph;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Demikian permohonan ini dibuat
+                dengan harapan Bapak/Ibu dapat mempertimbangkannya.</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="margin-top:0.0000pt;margin-bottom:0.0000pt;text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">Pemohon,</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal style="text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="text-align:left;"><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal style="text-align:left;"><span dir="LTR"
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">{{ $tanda_tangan }}</span><span
+                style="mso-spacerun:'yes';font-family:Calibri;font-size:12.0000pt;">
+                <o:p></o:p>
+            </span></p>
+    </div><!--EndFragment-->
 </body>
 
 </html>
